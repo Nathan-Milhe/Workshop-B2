@@ -38,35 +38,39 @@
 			<div class="col-xs-1">
 			</div>
 			<div class="col-xs-10">
-				<div class="">
-					
+				<div class="col-xs-6 marginBloc">
+
+				</div>
+				<div class="verticalLine">
+			    </div>
+				<div class="col-xs-6 marginBloc">
+					<form class="inscriptionContent" action="/action_page.php">
+					    <div class="container">
+					      	<h1>Inscription</h1>
+					      	<p>Veuillez remplir complètement le formulaire ci-dessous pour vous inscrire.</p>
+					      	<hr>
+
+					      	<label class="inscriptionText" for="psw-repeat"><b>Nom</b></label>
+					      	<input class="inscriptionCadre" type="password" placeholder="Votre nom" name="psw-repeat" required>
+
+					      	<label class="inscriptionText" for="psw-repeat"><b>Prénom</b></label>
+					      	<input class="inscriptionCadre" type="password" placeholder="Votre prénom" name="psw-repeat" required>
+
+					      	<label class="inscriptionText" for="email"><b>Email</b></label>
+					      	<input class="inscriptionCadre" type="text" placeholder="Votre email" name="email" required>
+
+					      	<label class="inscriptionText" for="psw"><b>Mot de passe</b></label>
+					      	<input class="inscriptionCadre" type="password" placeholder="Votre mot de passe" name="psw" required>
+
+					      	<button type="submit" class="signUpButton">Sign Up</button>
+					    </div>
+					</form>
 				</div>
 			</div>
 			<div class="col-xs-1">
 			</div>
 		</div>
 	</div>
-	<div class="form-group">
-        <label for="exampleInputPassword1">Nom</label>
-        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Entrer votre nom">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Prénom</label>
-        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Entrer votre prénom">
-      </div>
-     <div class="form-group">
-       <label for="exampleInputEmail1">Adresse Email</label>
-       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrer votre email">
-     </div>
-     <div class="form-group">
-       <label for="exampleInputPassword1">Mot de passe</label>
-       <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Entrer mot de passe">
-     </div>
-
-
-     <button type="submit" class="btn btn-primary">Submit</button>
-
-
 </body>
 <script>
 
