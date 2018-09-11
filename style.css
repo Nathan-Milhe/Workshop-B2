@@ -89,7 +89,7 @@ body {
     display: block;
     text-align: left;
     width: 100%;
-    margin: 0;
+    margin: 0px;
     padding: 14px;
   }
   .topnav input[type=text] {
@@ -171,4 +171,54 @@ hr {
     .signupbtn {
        width: 100%;
     }
+}
+
+/* ##### Page création de groupe ##### */
+
+.createNameGroupText {
+  float: left;
+  margin-top: 10px;
+  width: 100%
+}
+
+.createNameGroupBox {
+  float: left;
+  margin-top: 5px;
+  width: 75%;
+}
+
+.createNbGroupText {
+  float: left;
+  margin-top: 10px;
+  width: 100%
+}
+
+.createNbGroupBox {
+  float: left;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.createCategoryGroupText {
+  float: left;
+  margin-top: 10px;
+  width: 100%
+}
+
+.createCategoryGroupBox {
+  float: left;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.createDescGroupText {
+  float: left;
+  margin-top: 10px;
+  width: 100%
+}
+
+.createDescGroupBox {
+  float: left;
+  margin-top: 5px;
+  width: 75%;
 }
